@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F59238E-FC71-4517-8964-390632317C66}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DB_Mid_Project</RootNamespace>
+    <AssemblyName>DB_Mid_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op1.Designer.cs">
+      <DependentUpon>Op1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op1a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op1a.Designer.cs">
+      <DependentUpon>Op1a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op1b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op1b.Designer.cs">
+      <DependentUpon>Op1b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op1c.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op1c.Designer.cs">
+      <DependentUpon>Op1c.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op1d.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op1d.Designer.cs">
+      <DependentUpon>Op1d.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op2.Designer.cs">
+      <DependentUpon>Op2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op2a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op2a.Designer.cs">
+      <DependentUpon>Op2a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op2b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op2b.Designer.cs">
+      <DependentUpon>Op2b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op2b1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op2b1.Designer.cs">
+      <DependentUpon>Op2b1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op2b2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op2b2.Designer.cs">
+      <DependentUpon>Op2b2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op2b3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op2b3.Designer.cs">
+      <DependentUpon>Op2b3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op2b4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op2b4.Designer.cs">
+      <DependentUpon>Op2b4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op2c.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op2c.Designer.cs">
+      <DependentUpon>Op2c.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op2d.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op2d.Designer.cs">
+      <DependentUpon>Op2d.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op3.Designer.cs">
+      <DependentUpon>Op3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op3a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op3a.Designer.cs">
+      <DependentUpon>Op3a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op3b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op3b.Designer.cs">
+      <DependentUpon>Op3b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op3b1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op3b1.Designer.cs">
+      <DependentUpon>Op3b1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op3b2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op3b2.Designer.cs">
+      <DependentUpon>Op3b2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op3c.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op3c.Designer.cs">
+      <DependentUpon>Op3c.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op3d.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op3d.Designer.cs">
+      <DependentUpon>Op3d.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op4.Designer.cs">
+      <DependentUpon>Op4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op4a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op4a.Designer.cs">
+      <DependentUpon>Op4a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op4b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op4b.Designer.cs">
+      <DependentUpon>Op4b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op4c.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op4c.Designer.cs">
+      <DependentUpon>Op4c.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op4d.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op4d.Designer.cs">
+      <DependentUpon>Op4d.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op5.Designer.cs">
+      <DependentUpon>Op5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op6.Designer.cs">
+      <DependentUpon>Op6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op7.Designer.cs">
+      <DependentUpon>Op7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op7a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op7a.Designer.cs">
+      <DependentUpon>Op7a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op7b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op7b.Designer.cs">
+      <DependentUpon>Op7b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op7b1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op7b1.Designer.cs">
+      <DependentUpon>Op7b1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op7b2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op7b2.Designer.cs">
+      <DependentUpon>Op7b2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op7b3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op7b3.Designer.cs">
+      <DependentUpon>Op7b3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op7c.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op7c.Designer.cs">
+      <DependentUpon>Op7c.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op7d.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op7d.Designer.cs">
+      <DependentUpon>Op7d.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op8.Designer.cs">
+      <DependentUpon>Op8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Op9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Op9.Designer.cs">
+      <DependentUpon>Op9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op1.resx">
+      <DependentUpon>Op1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op1a.resx">
+      <DependentUpon>Op1a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op1b.resx">
+      <DependentUpon>Op1b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op1c.resx">
+      <DependentUpon>Op1c.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op1d.resx">
+      <DependentUpon>Op1d.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op2.resx">
+      <DependentUpon>Op2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op2a.resx">
+      <DependentUpon>Op2a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op2b.resx">
+      <DependentUpon>Op2b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op2b1.resx">
+      <DependentUpon>Op2b1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op2b2.resx">
+      <DependentUpon>Op2b2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op2b3.resx">
+      <DependentUpon>Op2b3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op2b4.resx">
+      <DependentUpon>Op2b4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op2c.resx">
+      <DependentUpon>Op2c.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op2d.resx">
+      <DependentUpon>Op2d.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op3.resx">
+      <DependentUpon>Op3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op3a.resx">
+      <DependentUpon>Op3a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op3b.resx">
+      <DependentUpon>Op3b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op3b1.resx">
+      <DependentUpon>Op3b1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op3b2.resx">
+      <DependentUpon>Op3b2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op3c.resx">
+      <DependentUpon>Op3c.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op3d.resx">
+      <DependentUpon>Op3d.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op4.resx">
+      <DependentUpon>Op4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op4a.resx">
+      <DependentUpon>Op4a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op4b.resx">
+      <DependentUpon>Op4b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op4c.resx">
+      <DependentUpon>Op4c.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op4d.resx">
+      <DependentUpon>Op4d.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op5.resx">
+      <DependentUpon>Op5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op6.resx">
+      <DependentUpon>Op6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op7.resx">
+      <DependentUpon>Op7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op7a.resx">
+      <DependentUpon>Op7a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op7b.resx">
+      <DependentUpon>Op7b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op7b1.resx">
+      <DependentUpon>Op7b1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op7b2.resx">
+      <DependentUpon>Op7b2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op7b3.resx">
+      <DependentUpon>Op7b3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op7c.resx">
+      <DependentUpon>Op7c.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op7d.resx">
+      <DependentUpon>Op7d.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op8.resx">
+      <DependentUpon>Op8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Op9.resx">
+      <DependentUpon>Op9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
